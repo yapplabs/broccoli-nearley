@@ -1,0 +1,34 @@
+{
+  "name": "broccoli-nearley",
+  "version": "0.0.1",
+  "description": "A broccoli plugin for compiling nearley grammars",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests",
+    "test:lint": "mocha tests/lint.js",
+    "test:debug": "mocha debug tests",
+    "test:watch": "testem"
+  },
+  "keywords": [
+    "broccoli-plugin",
+    "nearley"
+  ],
+  "author": "Luke Melia",
+  "license": "MIT",
+  "repository": "https://github.com/yapplabs/broccoli-nearley",
+  "homepage": "https://github.com/yapplabs/broccoli-nearley",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "broccoli-test-helper": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "mocha-eslint": "^6.0.0",
+    "testem": "^3.2.0"
+  },
+  "dependencies": {
+    "broccoli-persistent-filter": "^3.0.0",
+    "nearley": "^2.19.3"
+  }
+}
