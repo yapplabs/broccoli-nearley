@@ -1,6 +1,6 @@
 {
   "name": "broccoli-nearley",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A broccoli plugin for compiling nearley grammars",
   "keywords": [
     "broccoli-plugin",
